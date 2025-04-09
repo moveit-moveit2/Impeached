@@ -238,7 +238,8 @@ export const resultTypes = {
   ITSAS: "{username} 대통령은 친구들을 고위직에 임명하고 부패를 방관했다.",
   ITSAI:
     "{username} 대통령은 취임식에서 공약으로 내건 '하루 1시간 근무제'를 실제로 실행했다.",
-  ITNSS: "{username} 대통령은 근거 없는 음모론으로 사회 혼란을 조장했다.",
+  ITNSS:
+    "{username} 대통령은 근거 없는 음모론에 빠져 침대밖은 위험하다며 칩거했다.",
   ITNSI:
     "{username} 대통령은 교통 정체 시 경호차로 풀악셀 역주행 라이딩을 지시했다.",
   ITNAS:
