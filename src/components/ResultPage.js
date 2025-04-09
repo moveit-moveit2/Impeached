@@ -12,7 +12,7 @@ const ResultPage = ({ verdictText, resetQuiz, personalityType }) => {
   const [imageError, setImageError] = useState(false);
 
   // 성격 유형에 맞는 이미지 경로 생성
-  const resultImagePath = `/images/result-${personalityType}.png`;
+  const resultImagePath = `/images/${personalityType}.png`;
 
   // 이미지 저장 기능
   const saveAsImage = () => {
