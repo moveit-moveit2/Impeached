@@ -8,7 +8,7 @@
 
     <meta
       property="og:description"
-      content="대통령이었다면 탄핵 선고 받았을 이유"
+      content="당신이 대통령직에서 파면 된 이유"
     />
 
     <meta property="og:image" content="/thumbnail.png" />
@@ -34,6 +34,20 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-28WJFRE5QD"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-28WJFRE5QD");
+  </script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
